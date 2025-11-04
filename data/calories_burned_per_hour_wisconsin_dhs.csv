@@ -1,0 +1,226 @@
+Activity,Calories_130_lbs,Calories_155_lbs,Calories_190_lbs
+"Aerobics, general",354,422,518
+"Aerobics, high impact",413,493,604
+"Aerobics, low impact",295,352,431
+Archery (nonhunting),207,246,302
+Automobile repair,177,211,259
+"Backpacking, general",413,493,604
+"Badminton, competitive",413,493,604
+"Badminton, social, general",266,317,388
+"Basketball, game",472,563,690
+"Basketball, nongame, general",354,422,518
+"Basketball, officiating",413,493,604
+"Basketball, shooting baskets",266,317,388
+"Basketball, wheelchair",384,457,561
+"Bicycling, 10-11.9mph, light effort",354,422,518
+"Bicycling, 12-13.9mph, moderate effort",472,563,690
+"Bicycling, 14-15.9mph, vigorous effort",590,704,863
+"Bicycling, 16-19mph, very fast, racing",708,844,1035
+"Bicycling, <10mph, leisure",236,281,345
+"Bicycling, >20mph, racing",944,1126,1380
+"Bicycling, BMX or mountain",502,598,733
+"Bicycling, stationary, general",295,352,431
+"Bicycling, stationary, light effort",325,387,474
+"Bicycling, stationary, moderate effort",413,493,604
+"Bicycling, stationary, very light effort",177,211,259
+"Bicycling, stationary, very vigorous effort",738,880,1078
+"Bicycling, stationary, vigorous effort",620,739,906
+Billiards,148,176,216
+Bowling,177,211,259
+"Boxing, in ring, general",708,844,1035
+"Boxing, punching bag",354,422,518
+"Boxing, sparring",531,633,776
+Broomball,413,493,604
+"Calisthenics (pushups, sit-ups), vigorous effort",472,563,690
+"Calisthenics, home, light/moderate effort",266,317,388
+"Canoeing, rowing, >6 mp h, vigorous effort",708,844,1035
+"Canoeing, rowing, crewing, competition",708,844,1035
+"Canoeing, rowing, light effort",177,211,259
+"Canoeing, rowing, moderate effort",413,493,604
+"Carpentry, general",207,246,302
+"Carrying heavy loads, such as bricks",472,563,690
+"Child care: sitting/kneeling-dressing, feeding",177,211,259
+"Child care: standing-dressing, feeding",207,246,302
+"Circuit training, general",472,563,690
+"Cleaning, heavy, vigorous effort",266,317,388
+"Cleaning, house, general",207,246,302
+"Cleaning, light, moderate effort",148,176,216
+"Coaching: football, soccer, basketball, etc.",236,281,345
+"Construction, outside, remodeling",325,387,474
+Cooking or food preparation,148,176,216
+"Cricket (batting, bowling)",295,352,431
+Croquet,148,176,216
+Curling,236,281,345
+"Dancing, aerobic, ballet or modern, twist",354,422,518
+"Dancing, ballroom, fast",325,387,474
+"Dancing, ballroom, slow",177,211,259
+"Dancing, general",266,317,388
+"Darts, wall or lawn",148,176,216
+"Diving, springboard or platform",177,211,259
+"Electrical work, plumbing",207,246,302
+"Farming, baling hay, cleaning barn",472,563,690
+"Farming, milking by hand",177,211,259
+"Farming, shoveling grain",325,387,474
+Fencing,354,422,518
+"Fishing from boat, sitting",148,176,216
+"Fishing from river bank, standing",207,246,302
+"Fishing in stream, in waders",354,422,518
+"Fishing, general",236,281,345
+"Fishing, ice, sitting",118,141,173
+"Football or baseball, playing catch",148,176,216
+"Football, competitive",531,633,776
+"Football, touch, flag, general",472,563,690
+"Frisbee playing, general",177,211,259
+"Frisbee, ultimate",207,246,302
+"Gardening, general",295,352,431
+"Golf, carrying clubs",325,387,474
+"Golf, general",236,281,345
+"Golf, miniature or driving range",177,211,259
+"Golf, pulling clubs",295,352,431
+"Golf, using power cart",207,246,302
+"Gymnastics, general",236,281,345
+Hacky sack,236,281,345
+"Handball, general",708,844,1035
+"Handball, team",472,563,690
+"Health club exercise, general",325,387,474
+"Hiking, cross country",354,422,518
+"Hockey, field",472,563,690
+"Hockey, ice",472,563,690
+Horse grooming,354,422,518
+"Horse racing, galloping",472,563,690
+"Horseback riding, general",236,281,345
+"Horseback riding, trotting",384,457,561
+"Horseback riding, walking",148,176,216
+"Hunting, general",295,352,431
+Jai alai,708,844,1035
+"Jogging, general",413,493,604
+"Judo, karate, kick boxing, tae kwan do",590,704,863
+Kayaking,295,352,431
+Kickball,413,493,604
+Lacrosse,472,563,690
+"Marching band, playing instrument(walking)",236,281,345
+"Marching, rapidly, military",384,457,561
+Moto-cross,236,281,345
+"Moving furniture, household",354,422,518
+"Moving household items, boxes, upstairs",531,633,776
+"Moving household items, carrying boxes",413,493,604
+"Mowing lawn, general",325,387,474
+"Mowing lawn, riding mower",148,176,216
+"Music playing, cello, flute, horn, woodwind",118,141,173
+"Music playing, drums",236,281,345
+"Music playing, guitar, classical, folk(sitting)",118,141,173
+"Music playing, guitar, rock/roll band(standing)",177,211,259
+"Music playing, piano, organ, violin, trumpet",148,176,216
+Paddleboat,236,281,345
+"Painting, papering, plastering, scraping",266,317,388
+Polo,472,563,690
+Pushing or pulling stroller with child,148,176,216
+Race walking,384,457,561
+"Racquetball, casual, general",413,493,604
+"Racquetball, competitive",590,704,863
+Raking lawn,236,281,345
+"Rock climbing, ascending rock",649,774,949
+"Rock climbing, rapelling",472,563,690
+"Rope jumping, fast",708,844,1035
+"Rope jumping, moderate, general",590,704,863
+"Rope jumping, slow",472,563,690
+"Rowing, stationary, light effort",561,669,819
+"Rowing, stationary, moderate effort",413,493,604
+"Rowing, stationary, very vigorous effort",708,844,1035
+"Rowing, stationary, vigorous effort",502,598,733
+Rugby,590,704,863
+"Running, 10 mph (6 min mile)",944,1126,1380
+"Running, 10.9 mph (5.5 min mile)",1062,1267,1553
+"Running, 5 mph (12 min mile)",472,563,690
+"Running, 5.2 mph (11.5 min mile)",531,633,776
+"Running, 6 mph (10 min mile)",590,704,863
+"Running, 6.7 mph (9 min mile)",649,774,949
+"Running, 7 mph (8.5 min mile)",679,809,992
+"Running, 7.5mph (8 min mile)",738,880,1078
+"Running, 8 mph (7.5 min mile)",797,950,1165
+"Running, 8.6 mph (7 min mile)",826,985,1208
+"Running, 9 mph (6.5 min mile)",885,1056,1294
+"Running, cross country",531,633,776
+"Running, general",472,563,690
+"Running, in place",472,563,690
+"Running, on a track, team practice",590,704,863
+"Running, stairs, up",885,1056,1294
+"Running, training, pushing wheelchair",472,563,690
+"Running, wheeling, general",177,211,259
+"Sailing, boat/board, windsurfing, general",177,211,259
+"Sailing, in competition",295,352,431
+"Scrubbing floors, on hands and knees",325,387,474
+"Shoveling snow, by hand",354,422,518
+"Shuffleboard, lawn bowling",177,211,259
+Sitting-playing with children-light,148,176,216
+Skateboarding,295,352,431
+"Skating, ice, 9 mph or less",325,387,474
+"Skating, ice, general",413,493,604
+"Skating, ice, rapidly, > 9 mph",531,633,776
+"Skating, ice, speed, competitive",885,1056,1294
+"Skating, roller",413,493,604
+Ski jumping (climb up carrying skis),413,493,604
+"Ski machine, general",561,669,819
+"Ski-mobiling, water",413,493,604
+"Skiing, cross-country, >8.0 mph, racing",826,985,1208
+"Skiing, cross-country, moderate effort",472,563,690
+"Skiing, cross-country, slow or light effort",413,493,604
+"Skiing, cross-country, uphill, maximum effort",974,1161,1423
+"Skiing, cross-country, vigorous effort",531,633,776
+"Skiing, downhill, light effort",295,352,431
+"Skiing, downhill, moderate effort",354,422,518
+"Skiing, downhill, vigorous effort, racing",472,563,690
+"Skiing, snow, general",413,493,604
+"Skiing, water",354,422,518
+"Skin diving, scuba diving, general",413,493,604
+"Sledding, tobogganing , bobsledding, luge",413,493,604
+Snorkeling,295,352,431
+Snow shoeing,472,563,690
+Snowmobiling,207,246,302
+"Soccer, casual, general",413,493,604
+"Soccer, competitive",590,704,863
+"Softball or baseball, fast or slow pitch",295,352,431
+"Softball, officiating",354,422,518
+Squash,708,844,1035
+"Stair-treadmill ergometer, general",354,422,518
+Standing-packing/unpacking boxes,207,246,302
+"Stretching, hatha yoga",236,281,345
+"Surfing, body or board",177,211,259
+"Sweeping garage, sidewalk",236,281,345
+"Swimming laps, freestyle, fast, vigorous effort",590,704,863
+"Swimming laps, freestyle, light/moderate effort",472,563,690
+"Swimming, backstroke, general",472,563,690
+"Swimming, breaststroke, general",590,704,863
+"Swimming, butterfly, general",649,774,949
+"Swimming, leisurely, general",354,422,518
+"Swimming, sidestroke, general",472,563,690
+"Swimming, sychronized",472,563,690
+"Swimming, treading water, fast/vigorous",590,704,863
+"Swimming, treading water, moderate effort",236,281,345
+"Table tennis, ping pong",236,281,345
+Tai chi,236,281,345
+Teaching aerobics class,354,422,518
+"Tennis, doubles",354,422,518
+"Tennis, general",413,493,604
+"Tennis, singles",472,563,690
+Unicycling,295,352,431
+"Volleyball, beach",472,563,690
+"Volleyball, competitive, in gymnasium",236,281,345
+"Volleyball, noncompetitive; 6-9 member team",177,211,259
+Walk/run-playing with children-moderate,236,281,345
+Walk/run-playing with children-vigorous,295,352,431
+"Walking, 2.0 mph, slow pace",148,176,216
+"Walking, 3.0 mph, mo d. pace, walking dog",207,246,302
+"Walking, 3.5 mph, uphill",354,422,518
+"Walking, 4.0 mph, very brisk pace",236,281,345
+"Walking, carrying infant or 15-lb load",207,246,302
+"Walking, grass track",295,352,431
+"Walking, upstairs",472,563,690
+"Walking, using crutches",236,281,345
+"Wallyball, general",413,493,604
+"Water aerobics, water calisthenics",236,281,345
+Water polo,590,704,863
+Water volleyball,177,211,259
+"Weight lifting or body building, vigorous effort",354,422,518
+"Weight lifting, light or moderate effort",177,211,259
+"Whitewater rafting, kayaking, or canoeing",295,352,431
