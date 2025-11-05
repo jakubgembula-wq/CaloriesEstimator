@@ -4,8 +4,8 @@ import pandas as pd
 import joblib  # <-- added
 import os
 
-INPUT_CSV = r"C:\Users\Igor\Desktop\Calories burned\calories_burned_per_hour_wisconsin_dhs.csv"
-SAVE_PATH = r"C:\Users\Igor\Desktop\Calories burned\CaloriesProgram\SecondaryCaloriesModel.joblib"
+INPUT_CSV = r"C:\Users\jakub\Desktop\CaloriesEstimator\data\calories_burned_per_hour_wisconsin_dhs.csv"
+SAVE_PATH = r"C:\Users\jakub\Desktop\CaloriesEstimator\models\SecondaryCaloriesModel.joblib"
 
 df = pd.read_csv(INPUT_CSV)
 
@@ -73,6 +73,6 @@ print(f"\nR² (Accuracy): {r2:.4f}")
 print(f"Mean Absolute Error: {mae:.2f}")
 
 # # === Save the model ===
-# os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
-# joblib.dump(model, SAVE_PATH)
-# print(f"\n Model saved successfully to:\n{SAVE_PATH}")
+os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
+joblib.dump(model, SAVE_PATH)
+print(f"\n Model saved successfully to:\n{SAVE_PATH}")

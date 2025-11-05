@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import joblib
 
 # --- Load & clean ---
-df = pd.read_csv(r"C:\Users\Igor\Desktop\Calories burned\calories_data.csv")
+df = pd.read_csv(r"C:\Users\jakub\Desktop\CaloriesEstimator\data\calories_data.csv")
 df = df.drop(columns=["user_id", "user_id.1"], errors="ignore")
 
 # --- Features & target (same logic as before: drop HR & Temp) ---
@@ -45,6 +45,6 @@ print(f"RMSE: {rmse:.3f}")
 print(f"R²  : {r2:.4f}")
 
 # --- Save model ---
-SAVE_PATH = r"C:\Users\Igor\Desktop\Calories burned\CaloriesProgram\MainCaloriesModel_XGBoost.joblib"
+SAVE_PATH = r"C:\Users\jakub\Desktop\CaloriesEstimator\models\MainCaloriesModel_XGBoost.joblib"
 joblib.dump(model, SAVE_PATH)
 print(f"Model saved to: {SAVE_PATH}")

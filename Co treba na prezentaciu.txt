@@ -1,0 +1,15 @@
+Co treba na prezentaciu
+
+prerob dataset weight vs calorie 
+	tak aby som rozdeloval medzi low/medium/hard na zaklade mien 
+	a nie na zaklada kalorii
+
+ukaz kroky ktore som robil
+	1. zober moj stary model (Urob Jupiter notebook kde vysvetlis co sa deje) + (urob Jupiter notebook ohladom datasetu ktory som na to puzival (vzsvetli preco bol napicu))
+	2. zober moj aktualny model (urob Jupiter notebook kde vysvetlis vsetko trenovanie) + (ukaz ako som sa hral s datasetmy ktore som puzil na projekt (vysvetli hlavne ten vedlajsi dataset ktory som musel prerabat))
+
+
+prejdi si co si co si nasluboval introduction a picoviny
+
+urob conclusion nakoniec 
+	vysvetli preco si nemohol urobit to com nasluboval 

@@ -5,9 +5,9 @@ import os
 
 # ---- CONFIG ----
 RF_WEIGHT = 0.8
-RF_PATH  = r"C:\Users\Igor\Desktop\Calories burned\CaloriesProgram\MainCaloriesModel.joblib"
-XGB_PATH = r"C:\Users\Igor\Desktop\Calories burned\CaloriesProgram\MainCaloriesModel_XGBoost.joblib"
-LR_PATH  = r"C:\Users\Igor\Desktop\Calories burned\CaloriesProgram\SecondaryCaloriesModel.joblib"
+RF_PATH  = r"C:\Users\jakub\Desktop\CaloriesEstimator\models\MainCaloriesModel.joblib"
+XGB_PATH = r"C:\Users\jakub\Desktop\CaloriesEstimator\models\MainCaloriesModel_XGBoost.joblib"
+LR_PATH  = r"C:\Users\jakub\Desktop\CaloriesEstimator\models\SecondaryCaloriesModel.joblib"
 
 for p in (RF_PATH, XGB_PATH, LR_PATH):
     if not os.path.exists(p):

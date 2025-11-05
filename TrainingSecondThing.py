@@ -5,7 +5,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import numpy as np
 import joblib
 
-data = pd.read_csv(r"C:\Users\Igor\Desktop\Calories burned\calories_data.csv")
+data = pd.read_csv(r"C:\Users\jakub\Desktop\CaloriesEstimator\data\calories_data.csv")
 
 if "user_id" in data.columns:
     data = data.drop(columns=["user_id"])
@@ -60,5 +60,5 @@ print("\n=== Sample predictions (first 10) ===")
 print(preview.to_string(index=False))
 
 # Save the model (optional)
-# joblib.dump(model, r"C:\Users\Igor\Desktop\Calories burned\CaloriesProgram\MainCaloriesModel.joblib")
-# print("\nModel saved to: C:\\Users\\Igor\\Desktop\\Calories burned\\MainCaliersModel.joblib")
+joblib.dump(model, r"C:\Users\jakub\Desktop\CaloriesEstimator\models\MainCaloriesModel.joblib")
+print("\nModel saved to: C:\\Users\\jakub\Desktop\\CaloriesEstimator\\models\MainCaliersModel.joblib")
