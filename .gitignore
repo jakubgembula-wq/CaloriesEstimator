@@ -21,3 +21,4 @@ models/*.joblib
 ".venv/" 
 "MainCalorieEstimator/.venv/" 
 "OldCalorieEstimator/.venv/" 
+".venv/" 
