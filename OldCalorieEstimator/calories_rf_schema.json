@@ -1,0 +1,20 @@
+{
+  "feature_cols": [
+    "Gender",
+    "Age",
+    "Weight (kg)",
+    "Height (m)",
+    "Session_Duration (hours)",
+    "Workout_Type"
+  ],
+  "cat_cols": [
+    "Workout_Type"
+  ],
+  "num_cols": [
+    "Gender",
+    "Age",
+    "Weight (kg)",
+    "Height (m)",
+    "Session_Duration (hours)"
+  ]
+}
