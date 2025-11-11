@@ -1,14 +1,15 @@
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 import pandas as pd
-import joblib  # <-- added
+import joblib
 import os
 
-INPUT_CSV = r"C:\Users\jakub\Desktop\CaloriesEstimator\data\calories_burned_per_hour_wisconsin_dhs.csv"
-SAVE_PATH = r"C:\Users\jakub\Desktop\CaloriesEstimator\models\SecondaryCaloriesModel.joblib"
+INPUT_CSV = r"C:\Users\jakub\Desktop\CaloriesEstimator\MainCalorieEstimator\data\calories_burned_per_hour_wisconsin_dhs.csv"
+SAVE_PATH = r"C:\Users\jakub\Desktop\CaloriesEstimator\MainCalorieEstimator\models\SecondaryCaloriesModel.joblib"
 
 df = pd.read_csv(INPUT_CSV)
 
+# Rename columns to standardized names if they exist.
 rename_map = {
     "Calories_130_lbs": "Calories_59_kg",
     "Calories_155_lbs": "Calories_70_kg",
@@ -16,15 +17,19 @@ rename_map = {
 }
 df = df.rename(columns={c: rename_map[c] for c in df.columns if c in rename_map})
 
+# Identify available calorie columns.
 cal_cols = [c for c in ["Calories_59_kg", "Calories_70_kg", "Calories_86_kg"] if c in df.columns]
 if len(cal_cols) == 0:
     raise ValueError("No calories columns found. Expected 'Calories_59_kg', 'Calories_70_kg', 'Calories_86_kg'.")
 
+# Compute the mean calorie value across available weight columns.
 df["MeanCalories"] = df[cal_cols].mean(axis=1)
 
+# Quantiles for class boundaries.
 q1 = df["MeanCalories"].quantile(1/3)
 q2 = df["MeanCalories"].quantile(2/3)
 
+# Categorize calorie levels into classes.
 def by_calories(val: float) -> str:
     if val < q1:
         return "Low"
@@ -35,12 +40,14 @@ def by_calories(val: float) -> str:
 
 df["CalorieDemand"] = df["MeanCalories"].apply(by_calories)
 
+# Drop unused column if present.
 if "Activity" in df.columns:
     df = df.drop(columns=["Activity"])
 
 print("\nCalories-based classes:")
 print(df["CalorieDemand"].value_counts().to_string())
 
+# Display configuration for printing DataFrames.
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
@@ -48,6 +55,7 @@ pd.set_option("display.colheader_justify", "center")
 
 print(df.head())
 
+# Convert to long format for regression.
 long_df = df.melt(
     id_vars=["CalorieDemand"],
     value_vars=["Calories_59_kg", "Calories_70_kg", "Calories_86_kg"],
@@ -55,16 +63,20 @@ long_df = df.melt(
     value_name="Calories"
 )
 
+# Extract weight values from column names.
 long_df["Weight"] = long_df["WeightCol"].str.extract(r"(\d+)").astype(int)
 long_df = long_df[["Weight", "CalorieDemand", "Calories"]]
 print(long_df.head(10))
 
+# One-hot encode categorical values and prepare features/target.
 X = pd.get_dummies(long_df[["Weight", "CalorieDemand"]], drop_first=True)
 y = long_df["Calories"]
 
+# Train linear regression model.
 model = LinearRegression()
 model.fit(X, y)
 
+# Evaluate training performance.
 y_pred = model.predict(X)
 mae = mean_absolute_error(y, y_pred)
 r2 = r2_score(y, y_pred)
@@ -72,7 +84,7 @@ r2 = r2_score(y, y_pred)
 print(f"\nR² (Accuracy): {r2:.4f}")
 print(f"Mean Absolute Error: {mae:.2f}")
 
-# # === Save the model ===
-os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
-joblib.dump(model, SAVE_PATH)
-print(f"\n Model saved successfully to:\n{SAVE_PATH}")
+# # Save the model if needed.
+# os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
+# joblib.dump(model, SAVE_PATH)
+# print(f"\nModel saved successfully to:\n{SAVE_PATH}")
